@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/letsbewell/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/letsbewell/static/js/main.cd151f48.chunk.js",
+    "main.js.map": "/letsbewell/static/js/main.cd151f48.chunk.js.map",
+    "runtime-main.js": "/letsbewell/static/js/runtime-main.93b7cad1.js",
+    "runtime-main.js.map": "/letsbewell/static/js/runtime-main.93b7cad1.js.map",
+    "static/js/2.e7c5e07b.chunk.js": "/letsbewell/static/js/2.e7c5e07b.chunk.js",
+    "static/js/2.e7c5e07b.chunk.js.map": "/letsbewell/static/js/2.e7c5e07b.chunk.js.map",
+    "index.html": "/letsbewell/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/letsbewell/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.e7c5e07b.chunk.js.LICENSE.txt": "/letsbewell/static/js/2.e7c5e07b.chunk.js.LICENSE.txt",
+    "static/media/logo_small_rust.f9b5662a.svg": "/letsbewell/static/media/logo_small_rust.f9b5662a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93b7cad1.js",
+    "static/js/2.e7c5e07b.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.cd151f48.chunk.js"
+  ]
+}
