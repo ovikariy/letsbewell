@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <filter id="Path_572" x="19.069" y="24.549" width="52.053" height="52.053" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_99" data-name="Group 99" transform="translate(-182.5 -358.5)">
+    <path id="Path_571" data-name="Path 571" d="M0,0H90V90H0Z" transform="translate(182.5 358.5)" fill="none"/>
+    <g id="Group_98" data-name="Group 98" transform="translate(28.861 29.783)">
+      <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(164.139 339.217)" fill="none" stroke="#87bcbf" stroke-width="6">
+        <circle cx="34.5" cy="34.5" r="34.5" stroke="none"/>
+        <circle cx="34.5" cy="34.5" r="31.5" fill="none"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 153.64, 328.72)" filter="url(#Path_572)">
+        <path id="Path_572-2" data-name="Path 572" d="M37.05,23.029H5a2.009,2.009,0,0,0-2,2V37.05a2.009,2.009,0,0,0,2,2H37.05a2.009,2.009,0,0,0,2-2V25.032A2.009,2.009,0,0,0,37.05,23.029ZM11.012,35.047a4.006,4.006,0,1,1,4.006-4.006A4.018,4.018,0,0,1,11.012,35.047ZM37.05,3H5A2.009,2.009,0,0,0,3,5V17.021a2.009,2.009,0,0,0,2,2H37.05a2.009,2.009,0,0,0,2-2V5A2.009,2.009,0,0,0,37.05,3ZM11.012,15.018a4.006,4.006,0,1,1,4.006-4.006A4.018,4.018,0,0,1,11.012,15.018Z" transform="translate(24.07 24.55)" fill="#87bcbf" stroke="#707070" stroke-width="1" opacity="0.45"/>
+      </g>
+      <line id="Line_18" data-name="Line 18" x1="36.142" y2="56.287" transform="translate(182.106 347.591)" fill="none" stroke="#87bcbf" stroke-width="6"/>
+    </g>
+  </g>
+</svg>

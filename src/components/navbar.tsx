@@ -1,59 +1,35 @@
-import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
-} from 'reactstrap';
+import { useState } from 'react';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, NavbarProps } from 'reactstrap';
+import { sections } from '../modules/constants';
+import logo from '../assets/images/logo.svg';
+import githubLogo from '../assets/images/github.svg';
+import iOSLogo from '../assets/images/iOS.svg';
+import androidLogo from '../assets/images/android.png';
 
-const NavBar = (props: any) => {
+const NavBar = (props: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">BeWell</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-          <NavbarText>Simple Text</NavbarText>
-        </Collapse>
-      </Navbar>
-    </div>
+    <Navbar style={{ height: 60 }} className='main-background' fixed='top' dark expand="md">
+      <NavbarBrand href="/">
+        <img src={logo} className='small-logo' alt="BeWell App Logo" />
+        <span className='h1'>BE WELL</span>
+      </NavbarBrand>
+      <NavbarToggler onClick={toggle} />
+      <Collapse isOpen={isOpen} navbar className='main-background'>
+        <Nav className="mr-auto" navbar onClick={toggle}>
+          {sections.map((item) => <NavItem>
+            <NavLink href={"#" + item.id}>{item.menuText}</NavLink>
+          </NavItem>)
+          }
+        </Nav>
+        <a href='https://google.com'><img src={iOSLogo} className='small-logo' alt="Apple App Store Link" /></a>
+        <a href='https://google.com'><img src={androidLogo} className='small-logo' alt="Android Play Store Link" /></a>
+        <a href='https://google.com'><img src={githubLogo} className='small-logo' alt="GitHub Link" /></a>
+      </Collapse>
+    </Navbar>
   );
 }
 

@@ -1,0 +1,105 @@
+
+
+
+.app {
+  background-color: #324755; /* drab dark grey */
+  background-size: cover;
+}
+tr {
+  white-space: nowrap;
+}
+.main-color {
+  color: white; /* snow */
+}
+
+.main-background {
+  background-color: #324755; /* drab dark grey */
+}
+
+.section {
+  padding: 40px;
+  padding-top: 100px; /* this is needed for scrollTo menu to work well; header 60px + regular padding 40px */
+  min-height: 100vh;
+}
+
+/* about section is special because it shares height with footer */
+.about-section {
+  min-height: calc(100vh - 200px); /* min-height calculate section height minus footer height */
+}
+
+.footer {
+  min-height: 200px;
+  background-color: #87BCBF;
+  position: 'absolute';
+  bottom: 0;
+}
+
+.background-rust {
+  background:  bottom/contain no-repeat url('../images/rust-background.svg');
+}
+
+.color1 {
+  color: #D97D54;
+}
+
+.color2 {
+  color: #87BCBF; /* sage light aqua */
+}
+
+.background-transparent {
+  background-color: #87BCBF30;
+}
+
+.border-rounded {
+  border-radius: 20px;
+}
+
+.header {
+  /* background-color: #324755;
+  background:  top/contain no-repeat url('../images/rust_background.svg');  */
+  min-height: 100vh;
+  display: flex;
+}
+
+.small-logo {
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: initial;
+}
+
+.screenshot {
+  height: 80vh;
+  /* width: 100%; */
+  min-width: 200px;
+}
+
+.usage-screenshot {
+  width:100%;
+}
+
+@media (max-width: 768px) {
+  .screenshot {
+    width: 300px;
+    height: auto;
+  }
+
+  .usage-screenshot {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .screenshot {
+    width: 200px;
+    height: auto;
+  }
+
+  .usage-screenshot {
+    width: 200px;
+  }
+
+  .mediaIcon {
+    width: 50px;
+  }  
+}

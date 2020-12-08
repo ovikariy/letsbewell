@@ -1,19 +1,15 @@
-
 import React from 'react';
-import logo from './assets/images/logo_small_rust.svg';
-import './App.css';
+import './assets/styles/App.css';
 import NavBar from './components/navbar';
+import { sections } from './modules/constants';
+import FooterSection from './sections/footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className='app main-color' style={{position: 'relative'}}>
       <NavBar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hi there! BeWell app site coming soon
-        </p>
-      </header>
+      {sections.map((item) => item.component)}
+      <FooterSection />
     </div>
   );
 }
