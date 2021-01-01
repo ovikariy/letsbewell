@@ -11,14 +11,14 @@ export const sections: Section[] = [
         component: <HeaderSection id='home' />
     },
     {
-        id: 'features',
-        menuText: 'Features',
-        component: <FeaturesSection id='features' />
-    },
-    {
         id: 'data-privacy',
         menuText: 'Data Privacy',
         component: <DataPrivacySection id='data-privacy' />
+    },
+    {
+        id: 'features',
+        menuText: 'Features',
+        component: <FeaturesSection id='features' />
     },
     {
         id: 'about',

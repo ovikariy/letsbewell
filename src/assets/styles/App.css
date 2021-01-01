@@ -8,6 +8,15 @@
 tr {
   white-space: nowrap;
 }
+
+a {
+  color: #87BCBF; /* sage light aqua */
+}
+
+a:hover {
+  color: #87BCBF90; /* sage light aqua */
+}
+
 .main-color {
   color: white; /* snow */
 }
@@ -16,9 +25,14 @@ tr {
   background-color: #324755; /* drab dark grey */
 }
 
+.navbar {
+  min-height: 70;
+  padding: 0;
+}
+
 .section {
   padding: 40px;
-  padding-top: 100px; /* this is needed for scrollTo menu to work well; header 60px + regular padding 40px */
+  padding-top: 110px; /* this is needed for scrollTo menu to work well; navbar 70px + regular padding 40px */
   min-height: 100vh;
 }
 
@@ -29,7 +43,7 @@ tr {
 
 .footer {
   min-height: 200px;
-  background-color: #87BCBF;
+  background-color: #87BCBF30;
   position: 'absolute';
   bottom: 0;
 }
@@ -59,6 +73,12 @@ tr {
   background:  top/contain no-repeat url('../images/rust_background.svg');  */
   min-height: 100vh;
   display: flex;
+}
+
+.logo {
+  height: 60px; /* less than 60px makes nvabar jump when clicking menu links */
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .small-logo {

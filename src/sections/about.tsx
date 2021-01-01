@@ -10,24 +10,51 @@ function AboutSection(props: SectionProps) {
       <Row>
         <Col className='text-center mb-5'>
           <h4>
-            App developed and maintained by <strong className='color2'>Olena Vikariy</strong>
+            App developed and maintained by &nbsp;
+            <strong className='color2'>
+              <a href='https://www.linkedin.com/in/olena-vikariy/' title='Olena Vikariy LinkedIn Link' rel='noreferrer noopener' target='_blank'>
+                Olena Vikariy
+              </a>
+            </strong>
           </h4>
           <h5>
-            Code review by <strong className='color2'>Nicolas Chabra</strong>
+            Code review by &nbsp;
+            <strong className='color2'>
+              <a href='https://www.linkedin.com/in/nchabra/' title='Nicolas Chabra LinkedIn Link' rel='noreferrer noopener' target='_blank'>
+                Nicolas Chabra
+              </a>
+            </strong>
           </h5>
         </Col>
       </Row>
       <Row>
         <Col className='text-center mb-5'>
           <h5>
-            Design adapted from <strong className='color2'>Traktiv UI Kit</strong> in AdobeXD
+            Logo work by &nbsp;
+            <strong className='color2'>
+              <a href='https://www.linkedin.com/in/sharyn-seidel-kometz' title='Sharyn Seidel-kometz LinkedIn Link' rel='noreferrer noopener' target='_blank'>
+                Sharyn Seidel-kometz
+              </a>
+            </strong>
           </h5>
+          <h6>
+            Design adapted from &nbsp;
+            <strong className='color2'>
+              <a href='https://pinspiry.com/traktiv-app-free-ui-kit-xd/' title='Traktiv UI Kit Link' rel='noreferrer noopener' target='_blank'>Traktiv UI Kit</a>
+            </strong> &nbsp; in AdobeXD
+          </h6>
+          <h6>
+            Background photos by talented creators on &nbsp;
+            <strong className='color2'>
+              <a href='https://www.pexels.com/' title='Pexels Link' rel='noreferrer noopener' target='_blank'>Pexels</a>
+            </strong>
+          </h6>
         </Col>
       </Row>
       <Row className='justify-content-center'>
         <Col className='text-center col-sm-6'>
           <p className='lead color2'>
-            Wanna join us? If you like Be Well and want to help make it better then <strong className='color1'>get in touch</strong> or check out the <strong className='color1'>Be Well repo</strong> to work on the code.
+            Wanna join us? If you like Be Well and want to help make it better then <strong><a className='color1' href='https://www.linkedin.com/in/olena-vikariy/'  title='get in touch Link' rel='noreferrer noopener' target='_blank'>get in touch</a></strong> or check out the <strong><a className='color1' href='https://github.com/ovikariy/bewell'  title='Be Well repo link' rel='noreferrer noopener' target='_blank'>Be Well repo</a></strong> to work on the code.
           </p>
         </Col>
       </Row>

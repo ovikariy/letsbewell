@@ -12,22 +12,21 @@ const NavBar = (props: NavbarProps) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar style={{ height: 60 }} className='main-background' fixed='top' dark expand="md">
-      <NavbarBrand href="/">
-        <img src={logo} className='small-logo' alt="BeWell App Logo" />
-        <span className='h1'>BE WELL</span>
+    <Navbar className='main-background navbar' fixed='top' dark expand="md">
+      <NavbarBrand href="/" style={{ marginTop: '10px', marginLeft: '10px' }} >
+        <img src={logo} className='logo' alt="BeWell App Logo" />
       </NavbarBrand>
-      <NavbarToggler onClick={toggle} />
-      <Collapse isOpen={isOpen} navbar className='main-background'>
+      <NavbarToggler onClick={toggle} style={{ marginRight: '10px' }} />
+      <Collapse isOpen={isOpen} navbar className='main-background' style={{ padding: '20px' }}>
         <Nav className="mr-auto" navbar onClick={toggle}>
           {sections.map((item) => <NavItem>
             <NavLink href={"#" + item.id}>{item.menuText}</NavLink>
           </NavItem>)
           }
         </Nav>
-        <a href='https://google.com'><img src={iOSLogo} className='small-logo' alt="Apple App Store Link" /></a>
-        <a href='https://google.com'><img src={androidLogo} className='small-logo' alt="Android Play Store Link" /></a>
-        <a href='https://google.com'><img src={githubLogo} className='small-logo' alt="GitHub Link" /></a>
+          {/* <a href='https://google.com' title='BeWell App Store iOS Link' rel='noreferrer noopener' target='_blank'><img src={iOSLogo} className='small-logo' alt='Apple App Store Logo' /></a>
+          <a href='https://google.com' title='BeWell App Store Android Link' rel='noreferrer noopener' target='_blank'><img src={androidLogo} className='small-logo' alt='Android Play Store Logo' /></a> */}
+          <a href='https://github.com/ovikariy/bewell' title='BeWell App GitHub Code Repo Link' rel='noreferrer noopener' target='_blank'><img src={githubLogo} className='small-logo' alt='BeWell App GitHub Code Repo Logo' /></a>
       </Collapse>
     </Navbar>
   );

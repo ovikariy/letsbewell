@@ -1,5 +1,5 @@
 import React from 'react';
-import homeScreenshot from '../assets/images/screenshots/home.png';
+import homeScreenshot from '../assets/images/screenshots/bewell-app-features-home.svg';
 import '../assets/styles/App.css';
 import { Container, Row, Col } from 'reactstrap';
 import LinkButton from '../components/linkButton';
