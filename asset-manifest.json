@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/letsbewell/static/css/main.f0c9d453.chunk.css",
-    "main.js": "/letsbewell/static/js/main.9b4d141c.chunk.js",
-    "main.js.map": "/letsbewell/static/js/main.9b4d141c.chunk.js.map",
+    "main.js": "/letsbewell/static/js/main.dcaf4ba4.chunk.js",
+    "main.js.map": "/letsbewell/static/js/main.dcaf4ba4.chunk.js.map",
     "runtime-main.js": "/letsbewell/static/js/runtime-main.93b7cad1.js",
     "runtime-main.js.map": "/letsbewell/static/js/runtime-main.93b7cad1.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/letsbewell/static/css/2.20aa2d7b.chunk.css",
@@ -22,7 +22,6 @@
     "static/media/bewell-app-features-languages-themes.3a12a22e.svg": "/letsbewell/static/media/bewell-app-features-languages-themes.3a12a22e.svg",
     "static/media/bewell-app-features-mood.998ca1cf.svg": "/letsbewell/static/media/bewell-app-features-mood.998ca1cf.svg",
     "static/media/github.f79a2072.svg": "/letsbewell/static/media/github.f79a2072.svg",
-    "static/media/iOS.fb344554.svg": "/letsbewell/static/media/iOS.fb344554.svg",
     "static/media/logo.b5b5cde9.svg": "/letsbewell/static/media/logo.b5b5cde9.svg",
     "static/media/App.css": "/letsbewell/static/media/rust-background.dabf27c8.svg"
   },
@@ -31,6 +30,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.8d770f96.chunk.js",
     "static/css/main.f0c9d453.chunk.css",
-    "static/js/main.9b4d141c.chunk.js"
+    "static/js/main.dcaf4ba4.chunk.js"
   ]
 }
