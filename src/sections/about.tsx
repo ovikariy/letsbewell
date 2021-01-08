@@ -25,10 +25,6 @@ function AboutSection(props: SectionProps) {
               </a>
             </strong>
           </h5>
-        </Col>
-      </Row>
-      <Row>
-        <Col className='text-center mb-5'>
           <h5>
             Logo work by &nbsp;
             <strong className='color2'>
@@ -36,7 +32,11 @@ function AboutSection(props: SectionProps) {
                 Sharyn Seidel-kometz
               </a>
             </strong>
-          </h5>
+          </h5>          
+        </Col>
+      </Row>
+      <Row>
+        <Col className='text-center mb-5'>
           <h6>
             Design adapted from &nbsp;
             <strong className='color2'>
@@ -54,7 +54,7 @@ function AboutSection(props: SectionProps) {
       <Row className='justify-content-center'>
         <Col className='text-center col-sm-6'>
           <p className='lead color2'>
-            Wanna join us? If you like Be Well and want to help make it better then <strong><a className='color1' href='https://www.linkedin.com/in/olena-vikariy/'  title='get in touch Link' rel='noreferrer noopener' target='_blank'>get in touch</a></strong> or check out the <strong><a className='color1' href='https://github.com/ovikariy/bewell'  title='Be Well repo link' rel='noreferrer noopener' target='_blank'>Be Well repo</a></strong> to work on the code.
+            Wanna join us? If you like BeWell and want to help make it better then <strong><a className='color1' href='https://www.linkedin.com/in/olena-vikariy/'  title='get in touch Link' rel='noreferrer noopener' target='_blank'>get in touch</a></strong> or check out the <strong><a className='color1' href='https://github.com/ovikariy/bewell'  title='BeWell repo link' rel='noreferrer noopener' target='_blank'>BeWell repo</a></strong> to work on the code.
           </p>
         </Col>
       </Row>

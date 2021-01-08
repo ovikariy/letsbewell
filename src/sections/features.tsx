@@ -28,12 +28,12 @@ function FeaturesSection(props: SectionProps) {
           </ul>
         </Col>
         <Col className='text-center mt-5'>
-          <img src={featureMoodScreenshot} className='usage-screenshot' alt="Be Well App Feature Mood Screenshot" />
+          <img src={featureMoodScreenshot} className='usage-screenshot' alt="BeWell App Feature Mood Screenshot" />
         </Col>
       </Row>
       <Row className='align-items-center mb-5'>
         <Col className='order-12 order-md-0 text-center mt-5'>
-          <img src={featureLangThemeScreenshot} className='usage-screenshot' alt="Be Well App Feature Languages and Themes Screenshot" />
+          <img src={featureLangThemeScreenshot} className='usage-screenshot' alt="BeWell App Feature Languages and Themes Screenshot" />
         </Col>
         <Col>
           <ul>
@@ -74,13 +74,13 @@ function FeaturesSection(props: SectionProps) {
                 <p className="lead color2">
                   Coming soon: trends and charts
                   </p>
-                <img src={featureChartsScreenshot} className='usage-screenshot' alt='Be Well App Feature Charts Screenshot' />
+                <img src={featureChartsScreenshot} className='usage-screenshot' alt='BeWell App Feature Charts Screenshot' />
               </Col>
             </Row>
           </Container>
         </Col>
         <Col className='text-center mt-5'>
-          <img src={featureHistoryScreenshot} className='screenshot' alt='Be Well App Feature History Screenshot' />
+          <img src={featureHistoryScreenshot} className='screenshot' alt='BeWell App Feature History Screenshot' />
         </Col>
       </Row>
     </Container>

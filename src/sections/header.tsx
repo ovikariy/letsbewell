@@ -18,7 +18,7 @@ function HeaderSection(props: SectionProps) {
               </h2>
               <br />
               <p>
-                Be Well app helps you track your <i><b>moods</b></i>, <i><b>sleep</b></i> and save <i><b>notes</b></i> and <i><b>images</b></i> throughout the day without worrying about your data being sent to servers and sold to advertizers or other third parties.
+                BeWell app helps you track your <i><b>moods</b></i>, <i><b>sleep</b></i> and save <i><b>notes</b></i> and <i><b>images</b></i> throughout the day without worrying about your data being sent to servers and sold to advertizers or other third parties.
               </p>
               <br />
               <h4>
@@ -34,7 +34,7 @@ function HeaderSection(props: SectionProps) {
               <LinkButton href='https://www.google.com/' className='mr-3 mb-3'>Download for Android</LinkButton> */}
             </Col>
             <Col className='mt-5 text-center'>
-              <img src={homeScreenshot} className='screenshot' alt="Be Well App Welcome Page Screenshot" />
+              <img src={homeScreenshot} className='screenshot' alt="BeWell App Welcome Page Screenshot" />
             </Col>
           </Row>
         </Container>
