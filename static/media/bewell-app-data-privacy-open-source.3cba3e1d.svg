@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90.461" viewBox="0 0 90 90.461">
+  <defs>
+    <filter id="Subtraction_3" x="3" y="9" width="84.028" height="81.461" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_95" data-name="Group 95" transform="translate(-185 -728)">
+    <g transform="matrix(1, 0, 0, 1, 185, 728)" filter="url(#Subtraction_3)">
+      <path id="Subtraction_3-2" data-name="Subtraction 3" d="M46.458,63.461h0L38.326,40.691a10.433,10.433,0,1,0-11.107.353L19.263,63.321A33.063,33.063,0,0,1,9.67,56.613,33.237,33.237,0,0,1,14.556,5.664a32.86,32.86,0,0,1,36.917,0,33.217,33.217,0,0,1-5.014,57.8Z" transform="translate(12 13)" fill="#87bcbf"/>
+    </g>
+    <path id="Path_575" data-name="Path 575" d="M0,0H90V90H0Z" transform="translate(185 728)" fill="none"/>
+    <g id="Dark_FAB_1._Standard_4_States_" data-name="Dark 🌑 / FAB / 1. Standard (4 States)" transform="translate(209.713 741.211)">
+      <g id="Dark_Elevation_00dp_9_States_" data-name="Dark 🌑/Elevation/00dp (9 States)">
+        <path id="Rectangle" d="M0,28Z" transform="translate(0 -23.536)" fill="#87bcbf"/>
+      </g>
+    </g>
+  </g>
+</svg>

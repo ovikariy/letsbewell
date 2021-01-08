@@ -1,21 +1,35 @@
 {
   "files": {
-    "main.css": "/letsbewell/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/letsbewell/static/js/main.cd151f48.chunk.js",
-    "main.js.map": "/letsbewell/static/js/main.cd151f48.chunk.js.map",
+    "main.css": "/letsbewell/static/css/main.f0c9d453.chunk.css",
+    "main.js": "/letsbewell/static/js/main.76f6b801.chunk.js",
+    "main.js.map": "/letsbewell/static/js/main.76f6b801.chunk.js.map",
     "runtime-main.js": "/letsbewell/static/js/runtime-main.93b7cad1.js",
     "runtime-main.js.map": "/letsbewell/static/js/runtime-main.93b7cad1.js.map",
-    "static/js/2.e7c5e07b.chunk.js": "/letsbewell/static/js/2.e7c5e07b.chunk.js",
-    "static/js/2.e7c5e07b.chunk.js.map": "/letsbewell/static/js/2.e7c5e07b.chunk.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/letsbewell/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8d770f96.chunk.js": "/letsbewell/static/js/2.8d770f96.chunk.js",
+    "static/js/2.8d770f96.chunk.js.map": "/letsbewell/static/js/2.8d770f96.chunk.js.map",
     "index.html": "/letsbewell/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/letsbewell/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.e7c5e07b.chunk.js.LICENSE.txt": "/letsbewell/static/js/2.e7c5e07b.chunk.js.LICENSE.txt",
-    "static/media/logo_small_rust.f9b5662a.svg": "/letsbewell/static/media/logo_small_rust.f9b5662a.svg"
+    "static/css/2.20aa2d7b.chunk.css.map": "/letsbewell/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.f0c9d453.chunk.css.map": "/letsbewell/static/css/main.f0c9d453.chunk.css.map",
+    "static/js/2.8d770f96.chunk.js.LICENSE.txt": "/letsbewell/static/js/2.8d770f96.chunk.js.LICENSE.txt",
+    "static/media/bewell-app-data-privacy-open-source.3cba3e1d.svg": "/letsbewell/static/media/bewell-app-data-privacy-open-source.3cba3e1d.svg",
+    "static/media/bewell-app-data-privacy-password-and-pin.9973bb81.svg": "/letsbewell/static/media/bewell-app-data-privacy-password-and-pin.9973bb81.svg",
+    "static/media/bewell-app-data-privacy-secure.5b7cba5b.svg": "/letsbewell/static/media/bewell-app-data-privacy-secure.5b7cba5b.svg",
+    "static/media/bewell-app-data-privacy-serverless.a72a657d.svg": "/letsbewell/static/media/bewell-app-data-privacy-serverless.a72a657d.svg",
+    "static/media/bewell-app-features-charts.5a059c1f.svg": "/letsbewell/static/media/bewell-app-features-charts.5a059c1f.svg",
+    "static/media/bewell-app-features-history.6f6d5c4a.svg": "/letsbewell/static/media/bewell-app-features-history.6f6d5c4a.svg",
+    "static/media/bewell-app-features-home.5346fe91.svg": "/letsbewell/static/media/bewell-app-features-home.5346fe91.svg",
+    "static/media/bewell-app-features-languages-themes.3a12a22e.svg": "/letsbewell/static/media/bewell-app-features-languages-themes.3a12a22e.svg",
+    "static/media/bewell-app-features-mood.998ca1cf.svg": "/letsbewell/static/media/bewell-app-features-mood.998ca1cf.svg",
+    "static/media/github.f79a2072.svg": "/letsbewell/static/media/github.f79a2072.svg",
+    "static/media/logo.b5b5cde9.svg": "/letsbewell/static/media/logo.b5b5cde9.svg",
+    "static/media/App.css": "/letsbewell/static/media/rust-background.dabf27c8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.93b7cad1.js",
-    "static/js/2.e7c5e07b.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.cd151f48.chunk.js"
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8d770f96.chunk.js",
+    "static/css/main.f0c9d453.chunk.css",
+    "static/js/main.76f6b801.chunk.js"
   ]
 }

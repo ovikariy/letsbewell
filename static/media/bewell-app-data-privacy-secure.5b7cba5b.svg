@@ -1,0 +1,15 @@
+<svg id="secure" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="95" viewBox="0 0 90 95">
+  <defs>
+    <filter id="Path_570" x="7.5" y="1.25" width="75" height="93.75" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Path_569" data-name="Path 569" d="M0,0H90V90H0Z" fill="none"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_570)">
+    <path id="Path_570-2" data-name="Path 570" d="M56.5,27.25H52.75v-7.5a18.75,18.75,0,1,0-37.5,0v7.5H11.5A7.522,7.522,0,0,0,4,34.75v37.5a7.522,7.522,0,0,0,7.5,7.5h45a7.522,7.522,0,0,0,7.5-7.5V34.75A7.522,7.522,0,0,0,56.5,27.25ZM34,61a7.5,7.5,0,1,1,7.5-7.5A7.522,7.522,0,0,1,34,61ZM45.625,27.25H22.375v-7.5a11.625,11.625,0,1,1,23.25,0Z" transform="translate(11 2.75)" fill="#87bcbf"/>
+  </g>
+</svg>
