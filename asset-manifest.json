@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://letsbewell.app/static/css/main.c591f603.chunk.css",
-    "main.js": "https://letsbewell.app/static/js/main.3660d05a.chunk.js",
-    "main.js.map": "https://letsbewell.app/static/js/main.3660d05a.chunk.js.map",
+    "main.js": "https://letsbewell.app/static/js/main.c5eb141f.chunk.js",
+    "main.js.map": "https://letsbewell.app/static/js/main.c5eb141f.chunk.js.map",
     "runtime-main.js": "https://letsbewell.app/static/js/runtime-main.ef6f8414.js",
     "runtime-main.js.map": "https://letsbewell.app/static/js/runtime-main.ef6f8414.js.map",
     "static/css/2.20aa2d7b.chunk.css": "https://letsbewell.app/static/css/2.20aa2d7b.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/bewell-app-data-privacy-secure.5b7cba5b.svg": "https://letsbewell.app/static/media/bewell-app-data-privacy-secure.5b7cba5b.svg",
     "static/media/bewell-app-data-privacy-serverless.a72a657d.svg": "https://letsbewell.app/static/media/bewell-app-data-privacy-serverless.a72a657d.svg",
     "static/media/bewell-app-features-charts.5a059c1f.svg": "https://letsbewell.app/static/media/bewell-app-features-charts.5a059c1f.svg",
-    "static/media/bewell-app-features-history.6f6d5c4a.svg": "https://letsbewell.app/static/media/bewell-app-features-history.6f6d5c4a.svg",
+    "static/media/bewell-app-features-history.4f6b357c.svg": "https://letsbewell.app/static/media/bewell-app-features-history.4f6b357c.svg",
     "static/media/bewell-app-features-home.5346fe91.svg": "https://letsbewell.app/static/media/bewell-app-features-home.5346fe91.svg",
     "static/media/bewell-app-features-languages-themes.3a12a22e.svg": "https://letsbewell.app/static/media/bewell-app-features-languages-themes.3a12a22e.svg",
     "static/media/bewell-app-features-mood.998ca1cf.svg": "https://letsbewell.app/static/media/bewell-app-features-mood.998ca1cf.svg",
@@ -30,6 +30,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.8d770f96.chunk.js",
     "static/css/main.c591f603.chunk.css",
-    "static/js/main.3660d05a.chunk.js"
+    "static/js/main.c5eb141f.chunk.js"
   ]
 }
