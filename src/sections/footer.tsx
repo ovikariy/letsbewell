@@ -27,7 +27,7 @@ function FooterSection(props: {}) {
                 <a href='https://github.com/ovikariy/bewell/blob/master/LICENSE' title='BeWell App License Link' rel='noreferrer noopener' target='_blank'>License</a>
               </Col>              
               <Col className='col-12 col-xs-12 col-sm-6 col-md-4 pr-20'>
-                <a href='https://github.com/ovikariy/bewell pl-0' title='BeWell App GitHub Code Repo Link' rel='noreferrer noopener' target='_blank'>BeWell Code Repo</a>
+                <a href='https://github.com/ovikariy/bewell' title='BeWell App GitHub Code Repo Link' rel='noreferrer noopener' target='_blank'>BeWell Code Repo</a>
               </Col>
               <Col className='col-12 col-xs-12 col-sm-6 col-md-4 pr-20'>
                 <a href='https://github.com/ovikariy/letsbewell' title='BeWell Site GitHub Code Repo Link' rel='noreferrer noopener' target='_blank'>Site Code Repo</a>
