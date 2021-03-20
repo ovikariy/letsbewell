@@ -2,6 +2,7 @@ import '../assets/styles/App.css';
 import { Container, Row, Col } from 'reactstrap';
 import { SectionProps } from '../modules/types';
 import SectionHeadingRow from '../components/sectionHeading';
+import { urls } from '../modules/constants';
 
 function AboutSection(props: SectionProps) {
   return (
@@ -54,7 +55,7 @@ function AboutSection(props: SectionProps) {
       <Row className='justify-content-center'>
         <Col className='text-center col-sm-6'>
           <p className='lead color2'>
-            Wanna join us? If you like BeWell and want to help make it better then <strong><a className='color1' href='https://www.linkedin.com/in/olena-vikariy/'  title='get in touch Link' rel='noreferrer noopener' target='_blank'>get in touch</a></strong> or check out the <strong><a className='color1' href='https://github.com/ovikariy/bewell'  title='BeWell repo link' rel='noreferrer noopener' target='_blank'>BeWell repo</a></strong> to work on the code.
+            Wanna join us? If you like BeWell and want to help make it better then <strong><a className='color1' href='https://www.linkedin.com/in/olena-vikariy/'  title='get in touch Link' rel='noreferrer noopener' target='_blank'>get in touch</a></strong> or check out the <strong><a className='color1' href={urls.GitHubAppRepo}  title='BeWell repo link' rel='noreferrer noopener' target='_blank'>BeWell repo</a></strong> to work on the code.
           </p>
         </Col>
       </Row>

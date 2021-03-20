@@ -4,6 +4,14 @@ import FeaturesSection from "../sections/features";
 import HeaderSection from "../sections/header";
 import { Section } from './types';
 
+/** urls without ending slashes */
+export const urls = {
+    GooglePlayStore: 'https://play.google.com/store/apps/details?id=com.letsbewell.bewellapp',
+    GitHubAppRepo: 'https://github.com/ovikariy/bewell',
+    GitHunSiteRepo: 'https://github.com/ovikariy/letsbewell',
+    PrivacyPolicy: 'https://github.com/ovikariy/bewell/blob/master/privacy-policy.pdf'
+}
+
 export const sections: Section[] = [
     {
         id: 'home',
