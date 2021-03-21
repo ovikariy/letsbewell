@@ -30,9 +30,8 @@ function HeaderSection(props: SectionProps) {
             </h4>
             <br />
             <br />
-            {/* <LinkButton href='https://www.google.com/' className='mr-3 mb-3'>Download for iOS</LinkButton>*/}
+            <LinkButton href={urls.ApplePlayStore} className='mr-3 mb-3'>Download for iOS</LinkButton>
             <LinkButton href={urls.GooglePlayStore} className='mr-3 mb-3'>Download for Android</LinkButton>
-            <LinkButton className='mr-3 mb-3'>iOS coming soon!</LinkButton>
           </Col>
           <Col className='mt-5 text-center'>
             <img src={homeScreenshot} className='screenshot' alt="BeWell App Welcome Page Screenshot" />

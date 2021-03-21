@@ -24,7 +24,7 @@ const NavBar = (props: NavbarProps) => {
           </NavItem>)
           }
         </Nav>
-          {/* <a href='https://google.com' title='BeWell App Store iOS Link' rel='noreferrer noopener' target='_blank'><img src={iOSLogo} className='small-logo' alt='Apple App Store Logo' /></a> */}
+          <a href={urls.ApplePlayStore} title='BeWell App Store iOS Link' rel='noreferrer noopener' target='_blank'><img src={iOSLogo} className='small-logo' alt='Apple App Store Logo' /></a>
           <a href={urls.GooglePlayStore} title='BeWell App Store Android Link' rel='noreferrer noopener' target='_blank'><img src={androidLogo} className='small-logo' alt='Android Play Store Logo' /></a>
           <a href={urls.GitHubAppRepo} title='BeWell App GitHub Code Repo Link' rel='noreferrer noopener' target='_blank'><img src={githubLogo} className='small-logo' alt='BeWell App GitHub Code Repo Logo' /></a>
       </Collapse>

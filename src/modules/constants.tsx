@@ -7,6 +7,7 @@ import { Section } from './types';
 /** urls without ending slashes */
 export const urls = {
     GooglePlayStore: 'https://play.google.com/store/apps/details?id=com.letsbewell.bewellapp',
+    ApplePlayStore: 'https://apps.apple.com/us/app/bewell-wellbeing-tracker/id1557612608',
     GitHubAppRepo: 'https://github.com/ovikariy/bewell',
     GitHunSiteRepo: 'https://github.com/ovikariy/letsbewell',
     PrivacyPolicy: 'https://github.com/ovikariy/bewell/blob/master/privacy-policy.pdf'
