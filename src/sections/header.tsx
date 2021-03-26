@@ -18,6 +18,10 @@ function HeaderSection(props: SectionProps) {
               with a focus on data privacy
               </h2>
             <br />
+            <LinkButton href={urls.ApplePlayStore} className='mr-3 mb-3'>Download for iOS</LinkButton>
+            <LinkButton href={urls.GooglePlayStore} className='mb-3'>Download for Android</LinkButton>
+            <br />
+            <br />
             <p>
               BeWell app helps you track your <i><b>moods</b></i>, <i><b>sleep</b></i> and save <i><b>notes</b></i> and <i><b>images</b></i> throughout the day without worrying about your data being sent to servers and sold to advertizers or other third parties.
               </p>
@@ -29,9 +33,6 @@ function HeaderSection(props: SectionProps) {
               <small>It is stored encrypted and stays on your device.</small>
             </h4>
             <br />
-            <br />
-            <LinkButton href={urls.ApplePlayStore} className='mr-3 mb-3'>Download for iOS</LinkButton>
-            <LinkButton href={urls.GooglePlayStore} className='mr-3 mb-3'>Download for Android</LinkButton>
           </Col>
           <Col className='mt-5 text-center'>
             <img src={homeScreenshot} className='screenshot' alt="BeWell App Welcome Page Screenshot" />
