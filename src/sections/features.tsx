@@ -1,4 +1,5 @@
 
+import featureWidgetsScreenshot from '../assets/images/screenshots/bewell-app-features-widgets.png';
 import featureMoodScreenshot from '../assets/images/screenshots/bewell-app-features-mood.svg';
 import featureLangThemeScreenshot from '../assets/images/screenshots/bewell-app-features-languages-themes.svg';
 import featureHistoryScreenshot from '../assets/images/screenshots/bewell-app-features-history.svg';
@@ -16,14 +17,31 @@ function FeaturesSection(props: SectionProps) {
         <Col>
           <ul>
             <li>
-              <h2>
+              <h3>
+                <small>12 widgets available and new ones added regularly!</small>
+                <br />
+                <img src={featureWidgetsScreenshot} style={{ width: '100%'  , marginTop: 20 }} alt="BeWell App Widgets Screenshot" />
+              </h3>
+            </li>
+            <li>
+              <h3>
                 <small>Quick and easy to use</small>
-              </h2>
+              </h3>
+            </li>
+            <li>
+              <h3>
+                <small>Auto save</small>
+              </h3>
             </li>
             <li>
               <h2>
-                <small>Auto save</small>
+                <small>Customizable widget order</small>
               </h2>
+            </li>
+            <li>
+              <h3>
+                <small>Customizable lists for Movement, Creativity and Medications</small>
+              </h3>
             </li>
           </ul>
         </Col>
@@ -41,7 +59,7 @@ function FeaturesSection(props: SectionProps) {
               <h2>
                 <small>Multiple Languages</small>
               </h2>
-              <p className='color2'>English, Russian and French so far....</p>
+              <p className='color2'>English, Russian, French, and German so far...</p>
             </li>
             <li>
               <h2>
@@ -73,7 +91,7 @@ function FeaturesSection(props: SectionProps) {
               <Col className='text-center'>
                 <p className="lead color2">
                   Coming soon: trends and charts
-                  </p>
+                </p>
                 <img src={featureChartsScreenshot} className='usage-screenshot' alt='BeWell App Feature Charts Screenshot' />
               </Col>
             </Row>

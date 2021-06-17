@@ -1,5 +1,5 @@
-import React from 'react';
-import homeScreenshot from '../assets/images/screenshots/bewell-app-features-home.svg';
+import homeScreenshot1 from '../assets/images/screenshots/bewell-app-features-home1.svg';
+import homeScreenshot2 from '../assets/images/screenshots/bewell-app-features-home2.svg';
 import '../assets/styles/App.css';
 import { Container, Row, Col } from 'reactstrap';
 import LinkButton from '../components/linkButton';
@@ -23,7 +23,7 @@ function HeaderSection(props: SectionProps) {
             <br />
             <br />
             <p>
-              BeWell app helps you track your <i><b>moods</b></i>, <i><b>sleep</b></i> and save <i><b>notes</b></i> and <i><b>images</b></i> throughout the day without worrying about your data being sent to servers and sold to advertizers or other third parties.
+              BeWell app helps you track your <b><i>moods</i></b>, <b><i>sleep</i></b>, <b><i>movement</i></b>, <b><i>creative tasks</i></b>, <b><i>stress levels</i></b>, <b><i>meditation time</i></b> and so much more! It also allows saving notes and images throughout the day without worrying about your data being sent to servers and sold to advertisers or other third parties.
               </p>
             <br />
             <h4>
@@ -35,7 +35,10 @@ function HeaderSection(props: SectionProps) {
             <br />
           </Col>
           <Col className='mt-5 text-center'>
-            <img src={homeScreenshot} className='screenshot' alt="BeWell App Welcome Page Screenshot" />
+            <img src={homeScreenshot1} className='screenshot' alt="BeWell App Welcome Page Screenshot" />
+          </Col>
+          <Col className='mt-5 text-center'>
+            <img src={homeScreenshot2} className='screenshot' alt="BeWell App Welcome Page Screenshot" />
           </Col>
         </Row>
       </Container>
