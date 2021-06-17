@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://letsbewell.app/static/css/main.c591f603.chunk.css",
-    "main.js": "https://letsbewell.app/static/js/main.e37e1533.chunk.js",
-    "main.js.map": "https://letsbewell.app/static/js/main.e37e1533.chunk.js.map",
+    "main.js": "https://letsbewell.app/static/js/main.233abb68.chunk.js",
+    "main.js.map": "https://letsbewell.app/static/js/main.233abb68.chunk.js.map",
     "runtime-main.js": "https://letsbewell.app/static/js/runtime-main.ef6f8414.js",
     "runtime-main.js.map": "https://letsbewell.app/static/js/runtime-main.ef6f8414.js.map",
     "static/css/2.20aa2d7b.chunk.css": "https://letsbewell.app/static/css/2.20aa2d7b.chunk.css",
@@ -18,9 +18,10 @@
     "static/media/bewell-app-data-privacy-serverless.a72a657d.svg": "https://letsbewell.app/static/media/bewell-app-data-privacy-serverless.a72a657d.svg",
     "static/media/bewell-app-features-charts.5a059c1f.svg": "https://letsbewell.app/static/media/bewell-app-features-charts.5a059c1f.svg",
     "static/media/bewell-app-features-history.4f6b357c.svg": "https://letsbewell.app/static/media/bewell-app-features-history.4f6b357c.svg",
-    "static/media/bewell-app-features-home.5346fe91.svg": "https://letsbewell.app/static/media/bewell-app-features-home.5346fe91.svg",
+    "static/media/bewell-app-features-home.67d5225a.svg": "https://letsbewell.app/static/media/bewell-app-features-home.67d5225a.svg",
     "static/media/bewell-app-features-languages-themes.3a12a22e.svg": "https://letsbewell.app/static/media/bewell-app-features-languages-themes.3a12a22e.svg",
     "static/media/bewell-app-features-mood.998ca1cf.svg": "https://letsbewell.app/static/media/bewell-app-features-mood.998ca1cf.svg",
+    "static/media/bewell-app-features-widgets.50086c78.png": "https://letsbewell.app/static/media/bewell-app-features-widgets.50086c78.png",
     "static/media/github.f79a2072.svg": "https://letsbewell.app/static/media/github.f79a2072.svg",
     "static/media/iOS.fb344554.svg": "https://letsbewell.app/static/media/iOS.fb344554.svg",
     "static/media/logo.b5b5cde9.svg": "https://letsbewell.app/static/media/logo.b5b5cde9.svg",
@@ -31,6 +32,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.8d770f96.chunk.js",
     "static/css/main.c591f603.chunk.css",
-    "static/js/main.e37e1533.chunk.js"
+    "static/js/main.233abb68.chunk.js"
   ]
 }
