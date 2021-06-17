@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://letsbewell.app/static/css/main.c591f603.chunk.css",
-    "main.js": "https://letsbewell.app/static/js/main.7b31b674.chunk.js",
-    "main.js.map": "https://letsbewell.app/static/js/main.7b31b674.chunk.js.map",
+    "main.js": "https://letsbewell.app/static/js/main.58aa270e.chunk.js",
+    "main.js.map": "https://letsbewell.app/static/js/main.58aa270e.chunk.js.map",
     "runtime-main.js": "https://letsbewell.app/static/js/runtime-main.ef6f8414.js",
     "runtime-main.js.map": "https://letsbewell.app/static/js/runtime-main.ef6f8414.js.map",
     "static/css/2.20aa2d7b.chunk.css": "https://letsbewell.app/static/css/2.20aa2d7b.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.8d770f96.chunk.js",
     "static/css/main.c591f603.chunk.css",
-    "static/js/main.7b31b674.chunk.js"
+    "static/js/main.58aa270e.chunk.js"
   ]
 }
