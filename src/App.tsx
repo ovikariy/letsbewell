@@ -6,7 +6,7 @@ import FooterSection from './sections/footer';
 
 function App() {
   return (
-    <div className='app main-color' style={{position: 'relative'}}>
+    <div className='app main-color' style={{ position: 'relative' }}>
       <NavBar />
       {sections.map((item) => item.component)}
       <FooterSection />

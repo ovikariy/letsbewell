@@ -37,15 +37,25 @@ function FooterSection(props: {}) {
         </Col>
       </Row>
       <Row>
-        <Col className='text-center text-nowrap p-4'>
+        <Col className='text-center text-nowrap p-4 pb-0'>
           <a href={urls.ApplePlayStore} title='BeWell App Store iOS Link' rel='noreferrer noopener' target='_blank'><img src={iOSLogo} className='small-logo' alt='Apple App Store Logo' /></a>
           <a href={urls.GooglePlayStore} title='BeWell App Store Android Link' rel='noreferrer noopener' target='_blank'><img src={androidLogo} className='small-logo' alt='Android Play Store Logo' /></a>
           <a href={urls.GitHubAppRepo} title='BeWell App GitHub Code Repo Link' rel='noreferrer noopener' target='_blank'><img src={githubLogo} className='small-logo' alt='BeWell App GitHub Code Repo Logo' /></a>
         </Col>
       </Row>
       <Row>
+        <Col className='text-center text-nowrap'>
+          Want to support BeWell?
+        </Col>
+      </Row>
+      <Row>
+        <Col className='text-center text-nowrap pt-2 pb-4'>
+          <a href="https://checkout.opennode.com/p/369e4c83-4b06-459c-89a7-8114ce6ada8e" target="_blank"><img style={{ width: 200 }} src="https://app.opennode.com/pay-with-bitcoin.svg" /></a>
+        </Col>
+      </Row>
+      <Row>
         <Col className='lead text-center'>
-          Copyright © 2020 BeWell. All rights reserved | 
+          Copyright © 2020 BeWell. All rights reserved |
           <a href={urls.PrivacyPolicy} title='BeWell App Privacy Policy Link' rel='noreferrer noopener' target='_blank'> Privacy Policy</a>
         </Col>
       </Row>

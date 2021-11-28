@@ -6,7 +6,7 @@ import { urls } from '../modules/constants';
 
 function AboutSection(props: SectionProps) {
   return (
-    <Container className='section about-section' id={props.id}>
+    <Container className='section about-section' id={props.id} key={props.id}>
       <SectionHeadingRow heading='About' />
       <Row>
         <Col className='text-center mb-5'>

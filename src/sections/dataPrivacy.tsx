@@ -13,7 +13,7 @@ import SectionHeadingRow from '../components/sectionHeading';
 
 function DataPrivacySection(props: SectionProps) {
   return (
-    <Container className='section' id={props.id}>
+    <Container className='section' id={props.id} key={props.id}>
       <SectionHeadingRow heading='What do we mean when we refer to data privacy?' />
       <Row className='background-transparent'>
         <Col className='mb-5 mt-5 mt-sm-0 m-md-4'>

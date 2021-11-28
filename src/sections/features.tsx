@@ -11,7 +11,7 @@ import SectionHeadingRow from '../components/sectionHeading';
 
 function FeaturesSection(props: SectionProps) {
   return (
-    <Container className='section' id={props.id}>
+    <Container className='section' id={props.id} key={props.id}>
       <SectionHeadingRow heading='Features' />
       <Row className='align-items-center mb-5'>
         <Col>
