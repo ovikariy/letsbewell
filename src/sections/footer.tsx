@@ -50,7 +50,7 @@ function FooterSection(props: {}) {
       </Row>
       <Row>
         <Col className='text-center text-nowrap pt-2 pb-4'>
-          <a href="https://checkout.opennode.com/p/369e4c83-4b06-459c-89a7-8114ce6ada8e" target="_blank"><img style={{ width: 200 }} src="https://app.opennode.com/pay-with-bitcoin.svg" /></a>
+          <a href="https://checkout.opennode.com/p/369e4c83-4b06-459c-89a7-8114ce6ada8e" rel='noreferrer noopener' target="_blank"><img style={{ width: 200 }} src="https://app.opennode.com/pay-with-bitcoin.svg" alt="BeWell Pay With Bitcoin Button" /></a>
         </Col>
       </Row>
       <Row>
